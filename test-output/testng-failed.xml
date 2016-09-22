@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [URL-Validation-Suite]">
+  <parameter name="GET_URL" value=""/>
+  <test name="Access the URL(failed)" preserve-order="true">
+    <parameter name="GET_URL" value=""/>
+    <classes>
+      <class name="com.bluemeric.testcase.DemoQA">
+        <methods>
+          <include name="testGET" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bluemeric.testcase.DemoQA -->
+    </classes>
+  </test> <!-- Access the URL(failed) -->
+</suite> <!-- Failed suite [URL-Validation-Suite] -->

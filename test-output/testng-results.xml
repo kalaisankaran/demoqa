@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[================ URL is Empty, Please check the access URL =================== ]]>
+    </line>
+  </reporter-output>
+  <suite name="URL-Validation-Suite" duration-ms="26" started-at="2016-04-19T18:32:38Z" finished-at="2016-04-19T18:32:38Z">
+    <groups>
+    </groups>
+    <test name="Access the URL" duration-ms="26" started-at="2016-04-19T18:32:38Z" finished-at="2016-04-19T18:32:38Z">
+      <class name="com.bluemeric.testcase.DemoQA">
+        <test-method status="FAIL" signature="testGET(java.lang.String)[pri:0, instance:com.bluemeric.testcase.DemoQA@4edb89c2]" name="testGET" duration-ms="10" started-at="2016-04-19T18:32:38Z" finished-at="2016-04-19T18:32:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <message>
+              <![CDATA[no protocol: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException: no protocol: 
+	at java.net.URL.<init>(URL.java:596)
+	at java.net.URL.<init>(URL.java:493)
+	at java.net.URL.<init>(URL.java:442)
+	at com.bluemeric.testcase.DemoQA.testGET(DemoQA.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:702)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:894)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1219)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:768)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1188)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1113)
+	at org.testng.TestNG.run(TestNG.java:1025)
+	at com.bluemeric.main.Main.runTestNGTest(Main.java:51)
+	at com.bluemeric.main.Main.main(Main.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+        </test-method> <!-- testGET -->
+      </class> <!-- com.bluemeric.testcase.DemoQA -->
+    </test> <!-- Access the URL -->
+  </suite> <!-- URL-Validation-Suite -->
+</testng-results>
